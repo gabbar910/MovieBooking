@@ -1,0 +1,40 @@
+{
+  "seats": [
+    {
+      "movieId": "movie18",
+      "date": "2025-05-30",
+      "showTime": "6:00 PM",
+      "occupiedSeats": ["A1", "A2", "A3", "B5", "C10", "D3"]
+    },
+    {
+      "movieId": "movie18",
+      "date": "2025-06-01",
+      "showTime": "10:00 PM",
+      "occupiedSeats": ["A4", "A5", "E18", "F1"]
+    },
+    {
+      "movieId": "movie19",
+      "date": "2025-06-01",
+      "showTime": "5:00 PM",
+      "occupiedSeats": ["B2", "B3", "C4", "G8"]
+    },
+    {
+      "movieId": "movie20",
+      "date": "2025-06-02",
+      "showTime": "6:30 PM",
+      "occupiedSeats": ["D1", "F2", "B3", "H20", "H19"]
+    },
+    {
+      "movieId": "movie19",
+      "date": "2025-05-30",
+      "showTime": "5:00 PM",
+      "occupiedSeats": ["A4", "C12", "D8", "G20", "H19"]
+    },
+    {
+      "movieId": "movie20",
+      "date": "2025-06-05",
+      "showTime": "10:00 PM",
+      "occupiedSeats": ["A2", "C12", "D8", "E12", "E13", "G9", "H19"]
+    }
+  ]
+}

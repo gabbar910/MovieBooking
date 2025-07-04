@@ -1,0 +1,309 @@
+{
+  "cities": [
+    {
+      "id": "mumbai",
+      "name": "Mumbai"
+    },
+    {
+      "id": "delhi",
+      "name": "Delhi"
+    },
+    {
+      "id": "bangalore",
+      "name": "Bangalore"
+    },
+    {
+      "id": "chennai",
+      "name": "Chennai"
+    }
+  ],
+  "movies": [
+    {
+      "id": "movie18",
+      "title": "Avatar: The Way of Water",
+      "language": "English",
+      "format": "IMAX 3D",
+      "rating": "UA",
+      "duration": "3h 12m",
+      "genre": ["Action", "Adventure", "Fantasy"],
+      "recommended": true,
+      "showDates": ["2025-05-30", "2025-05-31", "2025-06-01"],
+      "theatres": [
+        {
+          "id": "theatre20",
+          "name": "PVR IMAX",
+          "location": "High Street Phoenix",
+          "showTimings": ["10:00 AM", "2:00 PM", "6:00 PM", "10:00 PM"]
+        }
+      ]
+    },
+    {
+      "id": "movie19",
+      "title": "The Super Mario Bros. Movie",
+      "language": "English",
+      "format": "3D",
+      "rating": "U",
+      "duration": "1h 32m",
+      "genre": ["Animation", "Adventure", "Comedy"],
+      "showDates": ["2025-05-30", "2025-05-31", "2025-06-01", "2025-06-02"],
+      "theatres": [
+        {
+          "id": "theatre21",
+          "name": "PVR Icon",
+          "location": "Infiniti Mall",
+          "showTimings": ["9:30 AM", "12:00 PM", "2:30 PM", "5:00 PM"]
+        }
+      ]
+    },
+    {
+      "id": "movie20",
+      "title": "Fast X",
+      "language": "English",
+      "format": "IMAX",
+      "rating": "UA",
+      "duration": "2h 21m",
+      "genre": ["Action", "Crime", "Thriller"],
+      "showDates": [
+        "2025-06-01",
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04",
+        "2025-06-05"
+      ],
+      "theatres": [
+        {
+          "id": "theatre22",
+          "name": "INOX Megaplex",
+          "location": "R-City Mall",
+          "showTimings": ["11:30 AM", "3:00 PM", "6:30 PM", "10:00 PM"]
+        }
+      ]
+    },
+    {
+      "id": "movie21",
+      "title": "Ponniyin Selvan: Part Two",
+      "language": "Tamil",
+      "format": "IMAX",
+      "rating": "UA",
+      "duration": "2h 45m",
+      "genre": ["Action", "Drama", "Historical"],
+      "showDates": ["2025-05-31", "2025-06-01", "2025-06-02", "2025-06-03"],
+      "theatres": [
+        {
+          "id": "theatre23",
+          "name": "PVR IMAX",
+          "location": "Phoenix MarketCity",
+          "showTimings": ["10:30 AM", "2:15 PM", "6:00 PM", "9:45 PM"]
+        }
+      ]
+    },
+    {
+      "id": "movie22",
+      "title": "Kantara",
+      "language": "Kannada",
+      "format": "2D",
+      "rating": "UA",
+      "duration": "2h 30m",
+      "genre": ["Action", "Drama", "Thriller"],
+      "recommended": true,
+      "showDates": [
+        "2025-06-01",
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04",
+        "2025-06-05"
+      ],
+      "theatres": [
+        {
+          "id": "theatre24",
+          "name": "INOX",
+          "location": "Malad West",
+          "showTimings": ["11:15 AM", "2:45 PM", "6:15 PM", "9:45 PM"]
+        }
+      ]
+    },
+    {
+      "id": "movie23",
+      "title": "The Whale",
+      "language": "English",
+      "format": "2D",
+      "rating": "A",
+      "duration": "1h 57m",
+      "genre": ["Drama"],
+      "showDates": ["2025-05-31", "2025-06-01", "2025-06-02"],
+      "theatres": [
+        {
+          "id": "theatre25",
+          "name": "PVR Icon",
+          "location": "Andheri West",
+          "showTimings": ["12:30 PM", "3:45 PM", "7:00 PM", "10:15 PM"]
+        }
+      ]
+    },
+    {
+      "id": "movie24",
+      "title": "Everything Everywhere All at Once",
+      "language": "English",
+      "format": "2D",
+      "rating": "A",
+      "duration": "2h 19m",
+      "genre": ["Action", "Adventure", "Comedy"],
+      "showDates": [
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04",
+        "2025-06-05",
+        "2025-06-06"
+      ],
+      "theatres": [
+        {
+          "id": "theatre26",
+          "name": "PVR Premiere",
+          "location": "Juhu",
+          "showTimings": ["11:00 AM", "2:30 PM", "6:00 PM", "9:30 PM"]
+        }
+      ]
+    },
+    {
+      "id": "movie25",
+      "title": "Vikram",
+      "language": "Tamil",
+      "format": "2D",
+      "rating": "UA",
+      "duration": "2h 53m",
+      "genre": ["Action", "Crime", "Thriller"],
+      "recommended": true,
+      "showDates": [
+        "2025-05-31",
+        "2025-06-01",
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04"
+      ],
+      "theatres": [
+        {
+          "id": "theatre27",
+          "name": "Cinepolis",
+          "location": "Thane",
+          "showTimings": ["10:45 AM", "2:15 PM", "5:45 PM", "9:15 PM"]
+        }
+      ]
+    },
+    {
+      "id": "movie26",
+      "title": "Brahmastra: Part One - Shiva",
+      "language": "Hindi",
+      "format": "IMAX 3D",
+      "rating": "UA",
+      "duration": "2h 47m",
+      "genre": ["Action", "Fantasy", "Adventure"],
+      "showDates": [
+        "2025-05-30",
+        "2025-05-31",
+        "2025-06-01",
+        "2025-06-02",
+        "2025-06-03"
+      ],
+      "theatres": [
+        {
+          "id": "theatre28",
+          "name": "PVR IMAX",
+          "location": "Lower Parel",
+          "showTimings": ["10:15 AM", "1:45 PM", "5:15 PM", "8:45 PM"]
+        }
+      ]
+    },
+    {
+      "id": "movie27",
+      "title": "The Kerala Story",
+      "language": "Hindi",
+      "format": "2D",
+      "rating": "A",
+      "duration": "2h 18m",
+      "genre": ["Drama"],
+      "recommended": "true",
+      "showDates": [
+        "2025-06-01",
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04",
+        "2025-06-05"
+      ],
+      "theatres": [
+        {
+          "id": "theatre29",
+          "name": "INOX Insignia",
+          "location": "Bandra",
+          "showTimings": ["11:30 AM", "3:00 PM", "6:30 PM", "10:00 PM"]
+        }
+      ]
+    },
+    {
+      "id": "movie28",
+      "title": "Guardians of the Galaxy Vol. 2",
+      "language": "English",
+      "format": "IMAX 3D",
+      "rating": "UA",
+      "duration": "2h 17m",
+      "genre": ["Action", "Adventure", "Comedy"],
+      "recommended": true,
+      "showDates": [
+        "2025-05-30",
+        "2025-05-31",
+        "2025-06-01",
+        "2025-06-02",
+        "2025-06-03"
+      ],
+      "theatres": [
+        {
+          "id": "theatre30",
+          "name": "PVR IMAX",
+          "location": "Kurla",
+          "showTimings": ["10:00 AM", "1:30 PM", "5:00 PM", "8:30 PM"]
+        }
+      ]
+    },
+    {
+      "id": "movie29",
+      "title": "Dasara",
+      "language": "Telugu",
+      "format": "2D",
+      "rating": "UA",
+      "duration": "2h 36m",
+      "genre": ["Action", "Drama"],
+      "showDates": ["2025-06-02", "2025-06-03", "2025-06-06"],
+      "theatres": [
+        {
+          "id": "theatre31",
+          "name": "INOX",
+          "location": "R City Mall",
+          "showTimings": ["11:45 AM", "3:15 PM", "6:45 PM", "10:15 PM"]
+        }
+      ]
+    },
+    {
+      "id": "movie30",
+      "title": "Dungeons & Dragons: Honor Among Thieves",
+      "language": "English",
+      "format": "IMAX",
+      "rating": "UA",
+      "duration": "2h 14m",
+      "genre": ["Action", "Adventure", "Fantasy"],
+      "showDates": [
+        "2025-05-31",
+        "2025-06-01",
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04"
+      ],
+      "theatres": [
+        {
+          "id": "theatre32",
+          "name": "PVR IMAX",
+          "location": "Goregaon",
+          "showTimings": ["10:30 AM", "2:00 PM", "5:30 PM", "9:00 PM"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+.header {
+  width: 100%;
+  background-color: #2e1065; /* Deep purple */
+  padding: 1rem;
+  color: #f3e8ff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  gap: 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f3e8ff;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+
+/* Search Box */
+.search-box {
+  flex: 1;
+  max-width: 500px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #4c1d95;
+  border-radius: 0.5rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  padding-right: 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  color: #f3e8ff;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.search-input::placeholder {
+  color: rgba(243, 232, 255, 0.6);
+}
+
+.search-input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.search-button {
+  position: absolute;
+  right: 0.5rem;
+  padding: 0.5rem;
+  color: rgba(243, 232, 255, 0.7);
+  border-radius: 0.25rem;
+  transition: all 0.2s ease;
+}
+
+.search-button:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.search-button:focus-visible {
+  outline: 2px solid #9333ea;
+  outline-offset: 2px;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.nav-link {
+  color: rgba(243, 232, 255, 0.9);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+
+.nav-link:hover {
+  color: #a78bfa;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0.75rem 0;
+  }
+
+  .header-content {
+    padding: 0 0.75rem;
+    gap: 1rem;
+  }
+
+  .logo {
+    font-size: 1.25rem;
+  }
+
+  .search-input {
+    padding: 0.6rem 0.75rem;
+    padding-right: 2.5rem;
+    font-size: 0.95rem;
+  }
+
+  .search-button {
+    padding: 0.4rem;
+  }
+
+  .search-button svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .nav-links {
+    gap: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-content {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .logo {
+    font-size: 1.1rem;
+  }
+
+  .search-box {
+    order: 3;
+    min-width: 100%;
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+}
